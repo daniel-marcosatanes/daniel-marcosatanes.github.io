@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I’m Daniel Marcos Atanes, a chemist fascinated by how molecules behave and how we can shape their reactivity. I recently completed my Ph.D. in Organic Chemistry at the University of Santiago de Compostela, working with Prof. José Luis Mascareñas at the [MetBioCat group](http://www.metbiocat.eu/) on iridium-catalyzed C–H borylation. In short: I tweaked ligands to control where reactions happen on a molecule (very handy when building complex structures!).
+Hi! I’m Daniel Marcos Atanes, a chemist fascinated by how molecules behave and how we can shape their reactivity.
+
+I recently completed my Ph.D. in Organic Chemistry at the University of Santiago de Compostela, working with Prof. José Luis Mascareñas at the [MetBioCat group](http://www.metbiocat.eu/) on iridium-catalyzed C–H borylation. In short: I tweaked ligands to control where reactions happen on a molecule (very handy when building complex structures!).
 
 My research brings together organic synthesis and computational chemistry, using both reaction flasks and theoretical tools to explore how non-covalent interactions drive selectivity. During my Ph.D., I spent time at CIC bioGUNE at the [Computational Chemistry Lab](http://www.gonzalojimenezoses.com/) learning DFT and computational methods, and later joined the [Hartwig group](https://hartwig.cchem.berkeley.edu/) at UC Berkeley as a Fulbright fellow, where I explored supramolecular ligand design and polymer upcycling.
 
-I’m drawn to projects that mix creativity with precision, especially those that challenge the way we think about catalysis and molecular design.
+I love projects that combine creativity and precision, especially when they open up new ways to think about catalysis and molecular design.
