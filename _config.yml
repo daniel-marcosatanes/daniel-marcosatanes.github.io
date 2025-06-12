@@ -276,7 +276,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Marcos-Atanes
+  last_name: [Marcos-Atanes]
   first_name: [Daniel]
 
   style: apa
