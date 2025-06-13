@@ -79,29 +79,32 @@
 - title: Teaching Experience
   type: time_table
   contents:
-    - title: Pharmaceutical Chemistry I
-      institution: Faculty of Pharmacy, Department of Organic Chemistry
-      year: 2021
-      duration_hours: 60
-
-    - title: Biomolecular Organic Chemistry
+    - title: Fundamentals of Organic Synthesis
       institution: Faculty of Chemistry, Department of Organic Chemistry
-      year: 2021
-      duration_hours: 48
+      year: 2022
+      duration_hours: 60
 
     - title: Fundamentals of Organic Synthesis
       institution: Faculty of Chemistry, Department of Organic Chemistry
       year: 2021
       duration_hours: 12
 
-    - title: Fundamentals of Organic Synthesis
+    - title: Biomolecular Organic Chemistry
       institution: Faculty of Chemistry, Department of Organic Chemistry
-      year: 2022
+      year: 2021
+      duration_hours: 48
+
+    - title: Pharmaceutical Chemistry I
+      institution: Faculty of Pharmacy, Department of Organic Chemistry
+      year: 2021
       duration_hours: 60
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2022
+      items:
+        - Fulbright–Spain Predoctoral Research Fellowship
     - year: 2017
       items:
         - CiQUS Summer Fellowship Programme
@@ -114,9 +117,6 @@
     - year: 2018
       items:
         - FPU Predoctoral Fellowship (Ministry of Universities, Spain, 2018)
-    - year: 2022
-      items:
-        - Fulbright–Spain Predoctoral Research Fellowship
 
 - title: Skills
   type: nested_list
