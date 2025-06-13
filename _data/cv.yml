@@ -33,7 +33,7 @@
           contents:
             - New strategies in metal catalysis through C–H activation
 
-- title: Experience
+- title: Research experience
   type: time_table
   contents:
     - title: Researcher
@@ -56,13 +56,6 @@
           contents:
             - Preparation of a functionalized starphene of interest in materials science
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Research stays
   type: time_table
   contents:
@@ -83,6 +76,29 @@
           contents:
             - Studied the mechanism of ortho-selective Ir-catalyzed borylation of aromatic amides using computational methods, highlighting key non-covalent interactions driving regioselectivity.
 
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Pharmaceutical Chemistry I
+      institution: Faculty of Pharmacy, Department of Organic Chemistry
+      year: 2021
+      duration_hours: 60
+
+    - title: Biomolecular Organic Chemistry
+      institution: Faculty of Chemistry, Department of Organic Chemistry
+      year: 2021
+      duration_hours: 48
+
+    - title: Fundamentals of Organic Synthesis
+      institution: Faculty of Chemistry, Department of Organic Chemistry
+      year: 2021
+      duration_hours: 12
+
+    - title: Fundamentals of Organic Synthesis
+      institution: Faculty of Chemistry, Department of Organic Chemistry
+      year: 2022
+      duration_hours: 60
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -102,14 +118,29 @@
       items:
         - Fulbright–Spain Predoctoral Research Fellowship
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Experimental Chemistry
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Organometallic synthesis and air-sensitive techniques (Glovebox and Schlenk line)
+        - Reaction design, optimization, and purification
+    - title: Computational Chemistry
       items:
-        - Description 1.
-        - Description 2.
+        - Mechanistic pathway modeling using DFT (Gaussian)
+        - Use of CREST and XTB for conformer searches and NCI for non-covalent interactions
+    - title: Scientific Tools
+      items:
+        - ChemDraw, MestReNova, Scifinder
+        - Microsoft Office Suite
+        - Basic Python scripting for data analysis
+    - title: Communication & Collaboration
+      items:
+        - Scientific writing and publishing
+        - Oral and poster presentations
+        - Teamwork and interdisciplinary collaboration
+    - title: Languages
+      items:
+        - Spanish (Native)
+        - Galician (Native)
+        - English (C1)
