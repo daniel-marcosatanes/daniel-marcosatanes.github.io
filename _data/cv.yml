@@ -12,35 +12,37 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Universidade de Santiago de Compostela, Spain
+      institution: CiQUS, Universidade de Santiago de Compostela, Spain
       year: 2025
       description:
-        - Ligand-controlled selective C–H borylations using Iridium catalysts
         - Supervised by prof. José Luis Mascareñas
+          - Ligand-controlled selective C–H borylations using Iridium catalysts
     - title: MS in Organic Chemistry
-      institution: Universidade de Santiago de Compostela, Spain
+      institution: CiQUS, Universidade de Santiago de Compostela, Spain
       year: 2019
       description:
-        - Dissertation: Unconventional transformations based on C–H activation reactions catalyzed by transition metals
+        - Supervised by prof. José Luis Mascareñas & prof. Moisés Gulías Costa
+          - Unconventional transformations based on C–H activation reactions catalyzed by transition metals
     - title: BS in Chemistry
-      institution: Universidade de Santiago de Compostela, Spain
+      institution: CiQUS, Universidade de Santiago de Compostela, Spain
       year: 2018
       description:
-        - Final Project: New strategies in metal catalysis through C–H activation
+        - Supervised by prof. José Luis Mascareñas & prof. Moisés Gulías Costa
+          - New strategies in metal catalysis through C–H activation
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Researcher
+      institution: CiQUS, Universidade de Santiago de Compostela
+      year: current
       description:
         - Description 1.
         - Description 2.
-        - title: Description 3.
+        - title: PhD Student
           contents:
             - Sub-description 1.
-            - Sub-description 2.
+            - Supervised by prof. José Luis Mascareñas
     - title: Visiting Professor
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933
@@ -84,18 +86,14 @@
       duration: 1 month
       description:
         - Lorem ipsum
-        - Supervised by Gonzalo Jiménez Osés       
+        - Supervised by Gonzalo Jiménez Osés
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Accésit "Chemists for our future"
 
 - title: Academic Interests
   type: nested_list
