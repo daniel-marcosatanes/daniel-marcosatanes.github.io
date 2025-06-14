@@ -22,16 +22,16 @@
       institution: CiQUS, Universidade de Santiago de Compostela, Spain
       year: 2018-2019
       description:
-        - title: Supervised by prof. José Luis Mascareñas & prof. Moisés Gulías Costa
-          contents:
-            - Unconventional transformations based on C–H activation reactions catalyzed by transition metals
+#        - title: Supervised by prof. José Luis Mascareñas & prof. Moisés Gulías Costa
+#          contents:
+#            - Unconventional transformations based on C–H activation reactions catalyzed by transition metals
     - title: BS in Chemistry
       institution: CiQUS, Universidade de Santiago de Compostela, Spain
       year: 2014-2018
-      description:
-        - title: Supervised by prof. José Luis Mascareñas & prof. Moisés Gulías Costa
-          contents:
-            - New strategies in metal catalysis through C–H activation
+#      description:
+#        - title: Supervised by prof. José Luis Mascareñas & prof. Moisés Gulías Costa
+#          contents:
+#            - New strategies in metal catalysis through C–H activation
 
 - title: Research experience
   type: time_table
@@ -47,6 +47,22 @@
         - title: Supervised by prof. José Luis Mascareñas
           contents:
             - Ligand-controlled selective C–H borylations using Iridium catalysts
+
+    - title: Master student researcher
+      institution: CiQUS, Universidade de Santiago de Compostela
+      year: 2018-2019
+      description:
+        - title: Supervised by prof. José Luis Mascareñas & prof. Moisés Gulías Costa
+          contents:
+            - Unconventional transformations based on C–H activation reactions catalyzed by transition metals
+
+    - title: Undergraduate researcher
+      institution: CiQUS, Universidade de Santiago de Compostela
+      year: 2017-2018
+      description:
+        - title: Supervised by prof. José Luis Mascareñas & prof. Moisés Gulías Costa
+          contents:
+            - New strategies in metal catalysis through C–H activation
 
     - title: Undergraduate researcher
       institution: CiQUS, Universidade de Santiago de Compostela
