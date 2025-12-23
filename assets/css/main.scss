@@ -34,7 +34,6 @@ $max-content-width: {{ site.max_width }};
 :root {
     --chem-teal: #006d77;  /* Color Principal */
     --chem-gold: #e29578;  /* Color Hover */
-    /* Sobreescribimos la variable global del tema también */
     --global-theme-color: #006d77 !important;
 }
 
@@ -62,7 +61,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* Color para iconos activos en el navbar (opcional, para consistencia) */
+/* Color para iconos activos en el navbar */
 header nav .nav-item.active .nav-link {
     color: var(--chem-teal) !important;
 }
@@ -90,59 +89,26 @@ header nav .nav-item.active .nav-link {
     background-color: rgba(226, 149, 120, 0.05) !important;
 }
 
-/* Estilo para Socials en la Barra Lateral */
-.profile .social .contact-icons {
-    display: flex;
-    justify-content: center; /* Centrados respecto a la foto */
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.profile .social .contact-icons a {
-    margin: 0 5px; /* Espacio entre iconos */
-    font-size: 1.2rem !important; /* Tamaño */
-    color: var(--chem-teal) !important;
-}
-
-/* Forzar alineación izquierda de iconos en la cabecera */
-header.post-header .social .contact-icons {
-    justify-content: flex-start !important;
-    margin-left: -5px; /* Un pequeño ajuste óptico para alinear con el texto */
-}
-
-header.post-header .social .contact-icons a {
-    font-size: 1.4rem !important; /* Un poco más grandes para destacar en la cabecera */
-    margin-right: 15px !important;
-    color: var(--chem-teal) !important;
-}
-
-/* --- FORZAR DISEÑO 2 COLUMNAS (VERSIÓN AGRESIVA) --- */
-
-/* Aplicar solo en tablets y escritorio (pantallas mayores a 768px) */
-@media (min-width: 768px) {
-  .projects .grid-item,
-  .projects .grid-sizer {
-      /* Forzar ancho al 50% anulando Bootstrap */
-      -webkit-box-flex: 0 !important;
-      -ms-flex: 0 0 50% !important;
-      flex: 0 0 50% !important;
-      max-width: 50% !important;
-      width: 50% !important;
-  }
-}
-
-/* Ajuste de la imagen: Que se vea entera (CONTAIN) y con fondo blanco */
+/* 5. Ajustes para las Imágenes de Research (Projects) */
+/* Esto hace que las fotos se vean enteras sobre fondo blanco */
 .card-img-top {
-    height: 250px !important;    /* Altura fija obligatoria */
-    object-fit: contain !important; /* Ajustar sin recortar */
-    padding: 10px;               /* Margen interno para que respire */
-    background-color: #ffffff;   /* Fondo blanco */
+    height: 250px !important;       /* Altura fija para que todas las cajas sean iguales */
+    object-fit: contain !important; /* Ajustar imagen sin recortar átomos */
+    padding: 15px;                  /* Margen interno para que respire */
+    background-color: #ffffff;      /* Fondo blanco */
     width: 100%;
 }
 
-/* Arreglar texto cortado */
+/* 6. Ajustes de Texto en Research */
+/* Evita que títulos largos rompan el diseño */
 .card-title {
     word-wrap: break-word;
     hyphens: auto;
+    font-size: 1.25rem !important; /* Un poco más grande para leerse bien */
+    margin-bottom: 0.5rem;
 }
-/* --- FIN DEL AJUSTE --- */
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
