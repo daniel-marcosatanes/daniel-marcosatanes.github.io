@@ -89,3 +89,17 @@ header nav .nav-item.active .nav-link {
     border-color: var(--chem-gold) !important;
     background-color: rgba(226, 149, 120, 0.05) !important;
 }
+
+/* Estilo para Socials en la Barra Lateral */
+.profile .social .contact-icons {
+    display: flex;
+    justify-content: center; /* Centrados respecto a la foto */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile .social .contact-icons a {
+    margin: 0 5px; /* Espacio entre iconos */
+    font-size: 1.2rem !important; /* Tamaño */
+    color: var(--chem-teal) !important;
+}
