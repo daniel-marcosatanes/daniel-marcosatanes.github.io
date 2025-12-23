@@ -127,8 +127,11 @@ header.post-header .social .contact-icons a {
 
   /* Ajustar el tamaño de la imagen para que llene la tarjeta más ancha */
   .card-img-top {
-      height: 250px; /* Altura fija para uniformidad */
-      object-fit: cover; /* Recortar imagen sin deformar */
+    height: 250px;       /* Altura fija para mantener la simetría de la cuadrícula */
+    object-fit: contain; /* ¡CAMBIO CLAVE! Ajusta la imagen sin recortarla */
+    padding: 5px;        /* Un poco de margen para que los átomos no toquen el borde */
+    background-color: #ffffff; /* Fondo blanco para integrar bien las estructuras */
+    width: 100%;         /* Asegura que ocupe el ancho disponible */
   }
 }
 
