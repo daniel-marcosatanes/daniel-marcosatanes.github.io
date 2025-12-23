@@ -2,12 +2,14 @@
 layout: about
 title: About me
 permalink: /
-subtitle: PhD in Organic Chemistry, CiQUS, Universidade de Santiago de Compostela
+subtitle: Organic Chemist. Xunta de Galicia Fellow. Future member of the <a href="https://www.melchiorrelab.com/">Melchiorre Lab</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
+  address: >
+  <p>Santiago de Compostela, Spain</p>
 #  more_info: >
 #    <p>555 your office number</p>
 #    <p>123 your address street</p>
@@ -26,13 +28,29 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+**Hi! I’m Daniel.**
 
-Hi! I’m Daniel Marcos Atanes, a chemist fascinated by how molecules behave and how we can shape their reactivity.
+I’m an organic chemist driven by curiosity and precision. My approach combines the art of **synthetic methodology** with the logic of **computational chemistry** to design cleaner, smarter reactions.
 
-I recently completed my Ph.D. in Organic Chemistry at the University of Santiago de Compostela, working with Prof. José Luis Mascareñas at the [MetBioCat group](http://www.metbiocat.eu/) on iridium-catalyzed C–H borylation. In short: I tweaked ligands to control where reactions happen on a molecule (very handy when building complex structures!).
+I believe the best science happens when you mix disciplines. That’s why I strive to bridge the gap between experimental synthesis (making the molecules) and DFT analysis (understanding how they form).
 
-My research brings together organic synthesis and computational chemistry, using both reaction flasks and theoretical tools to explore how non-covalent interactions drive selectivity.
+**My Journey So Far**
 
-During my Ph.D., I spent time at CIC bioGUNE at the [Computational Chemistry Lab](http://www.gonzalojimenezoses.com/) learning DFT and computational methods, and later joined the [Hartwig group](https://hartwig.cchem.berkeley.edu/) at UC Berkeley (Go Bears! 🐻) as a Fulbright fellow, where I explored supramolecular ligand design and polymer upcycling.
+I am currently a **Xunta de Galicia Postdoctoral Fellow** at **CiQUS** (Santiago de Compostela), continuing my research in the group of **Prof. José Luis Mascareñas** [MetBiocat group] (https://www.metbiocat.eu/).
 
-I love projects that combine creativity and precision, especially when they open up new ways to think about catalysis and molecular design.
+I defended my PhD *cum laude* here in February 2025. My thesis, titled *"Ligand-Controlled Selective C–H Borylations"*, explored a precision approach to modify complex molecules:
+*   We designed **bifunctional fluorinated ligands** (like 5-CF₃-bipy) capable of directing Iridium catalysts via **non-covalent dispersion interactions**.
+*   This strategy allowed us to invert conventional selectivity, achieving the challenging **ortho-borylation of aromatic amides** and unlocking new pathways for **C(sp³)–H functionalization** in aliphatic systems.
+
+My scientific path has been shaped by working with some of the best minds in the field:
+
+*   🌉 **The Berkeley Chapter (Fulbright Fellow):** In 2022-23, I joined the lab of **Prof. John Hartwig** at UC Berkeley [Hartwig Lab] (https://hartwig.cchem.berkeley.edu/). 
+    *   My main focus was the **C–H activation of aliphatic precursors**, utilizing non-covalent interactions to guide selectivity.
+    *   I also conducted the preliminary work for their recent breakthrough on **transforming PVC into adhesive materials** via catalytic borylation (published in *JACS* 2025).
+*   💻 **The Computational Twist:** In 2021, I realized I needed to see "under the hood" of chemical reactions. I spent a month in Bilbao with **Prof. Gonzalo Jiménez-Osés** at the [Computational Chemistry Lab](http://www.gonzalojimenezoses.com/), learning the ropes of computational chemistry. Since then, **DFT analysis** has become an inseparable part of my workflow.
+
+**What’s Next?**
+
+I’m already preparing for my next challenge. In **March 2026**, I will move to Bologna to join the **Melchiorre Lab**. I’ll be diving into the *Photozyme* project, exploring the exciting frontier where photocatalysis meets enzyme chemistry.
+
+***
