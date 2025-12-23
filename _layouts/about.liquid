@@ -12,10 +12,17 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+
+    <!-- NUEVO: Socials Aquí (Arriba a la Izquierda) -->
+    <div class="social" style="margin-top: 10px; text-align: left;">
+        <div class="contact-icons" style="justify-content: flex-start;">
+            {% include social.liquid %}
+        </div>
+    </div>
   </header>
 
   <article>
-{% if page.profile %}
+    {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
@@ -30,19 +37,7 @@ layout: default
           %}
         {% endif %}
 
-        <!-- DIRECCIÓN (Añadido explícitamente) -->
-        {% if page.profile.address %}
-        <div class="address">
-          {{ page.profile.address }}
-        </div>
-        {% endif %}
-
-        <!-- SOCIAL ICONS (Aquí es donde ocurre la magia) -->
-        <div class="social">
-          <div class="contact-icons">
-            {% include social.liquid %}
-          </div>
-        </div>
+        <!-- He borrado la sección address y social de aquí para que NO salgan bajo la foto -->
 
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -76,11 +71,10 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
+    <!-- Social Footer (Opcional, se controla desde about.md) -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
