@@ -57,6 +57,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-phd-defense",
+          title: 'PhD Defense',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/PhD_Defense/";
+            },},{id: "news-paper-published-in-acs-catalysis",
+          title: 'Paper published in ACS Catalysis',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/ACS_Catalysis/";
+            },},{id: "news-awarded-xunta-de-galicia-postdoctoral-fellowship",
+          title: 'Awarded Xunta de Galicia Postdoctoral Fellowship',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/Xunta_Postdoctoral_Fellowship/";
             },},{id: "projects-precision-c-h-functionalization",
           title: 'Precision C–H Functionalization',
           description: "Controlling selectivity in aromatic and aliphatic systems via non-covalent interactions.",
