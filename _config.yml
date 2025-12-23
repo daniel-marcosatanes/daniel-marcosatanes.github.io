@@ -9,8 +9,10 @@ last_name: Marcos Atanes
 # contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-Postdoctoral Fellow in Organic Chemistry at CiQUS. Specialist in C-H Functionalization, Ligand Design, and DFT computational analysis.
-# footer_text: >
+  Postdoctoral Fellow in Organic Chemistry at CiQUS. Specialist in C-H Functionalization, Ligand Design, and DFT computational analysis.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Organic Chemistry, C-H Activation, Iridium Catalysis, DFT, Computational Chemistry, CiQUS, Berkeley, Postdoc # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
