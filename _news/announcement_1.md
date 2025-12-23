@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
+title: PhD Defense
+date: 2025-02-27 12:00:00-0400
+inline: false
 related_posts: false
 ---
 
-A simple inline announcement.
+I successfully defended my PhD Thesis *"Ligand-controlled selective C–H borylations"* at the Universidade de Santiago de Compostela (USC), receiving the **Cum Laude** distinction. I am deeply grateful to my supervisor **Prof. José Luis Mascareñas** and all the committee members for the fruitful discussion.
