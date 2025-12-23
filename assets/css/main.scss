@@ -115,3 +115,28 @@ header.post-header .social .contact-icons a {
     margin-right: 15px !important;
     color: var(--chem-teal) !important;
 }
+
+/* --- FORZAR DISEÑO 2 COLUMNAS EN RESEARCH --- */
+
+/* En pantallas grandes (Desktop), usar el 50% del ancho (2 columnas) */
+@media (min-width: 768px) {
+  .projects .grid-item,
+  .projects .grid-sizer {
+      width: 49.5% !important; /* Casi 50% para asegurar que caben */
+  }
+
+  /* Ajustar el tamaño de la imagen para que llene la tarjeta más ancha */
+  .card-img-top {
+      height: 250px; /* Altura fija para uniformidad */
+      object-fit: cover; /* Recortar imagen sin deformar */
+  }
+}
+
+/* Arreglar el texto cortado en los títulos */
+.card-title {
+    word-wrap: break-word; /* Evita que palabras largas se salgan */
+    hyphens: auto; /* Añade guiones si es necesario */
+    font-size: 1.1rem !important; /* Un pelín más pequeño si hace falta */
+}
+
+/* --- FIN DEL AJUSTE --- */
