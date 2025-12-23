@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: Organic Chemist. Xunta de Galicia Fellow. Future member of the <a href="https://www.melchiorrelab.com/">Melchiorre Lab</a>.
+subtitle: Organic Chemist. Xunta de Galicia Postdoctoral Fellow. Future member of the <a href="https://www.melchiorrelab.com/">Melchiorre Lab</a>.
 
 profile:
   align: right
