@@ -103,3 +103,15 @@ header nav .nav-item.active .nav-link {
     font-size: 1.2rem !important; /* Tamaño */
     color: var(--chem-teal) !important;
 }
+
+/* Forzar alineación izquierda de iconos en la cabecera */
+header.post-header .social .contact-icons {
+    justify-content: flex-start !important;
+    margin-left: -5px; /* Un pequeño ajuste óptico para alinear con el texto */
+}
+
+header.post-header .social .contact-icons a {
+    font-size: 1.4rem !important; /* Un poco más grandes para destacar en la cabecera */
+    margin-right: 15px !important;
+    color: var(--chem-teal) !important;
+}
