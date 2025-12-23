@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paper accepted in ACS Catalysis
+title: Paper published in ACS Catalysis
 date: 2025-04-16 10:00:00-0400 # Pon una fecha aproximada de aceptación
 inline: false
 related_posts: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Awarded Xunta de Galicia Fellowship
+title: Awarded Xunta de Galicia Postdoctoral Fellowship
 date: 2025-12-01 09:00:00-0400
 inline: false
 related_posts: false
