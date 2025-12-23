@@ -2,7 +2,7 @@
 layout: page
 title: Computational Mechanism Analysis
 description: Rationalizing reactivity through DFT and Non-Covalent Interaction (NCI) analysis.
-img: assets/img/dft_project.jpg
+img: assets/img/projects_preview/dft_project.jpg
 importance: 4
 category: work
 ---

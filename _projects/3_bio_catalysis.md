@@ -2,7 +2,7 @@
 layout: page
 title: Catalysis in Biological Media
 description: Biocompatible Ruthenium transformations and steps towards chemical biology.
-img: assets/img/bio_project.jpg
+img: assets/img/projects_preview/bio_project.jpg
 importance: 3
 category: work
 ---

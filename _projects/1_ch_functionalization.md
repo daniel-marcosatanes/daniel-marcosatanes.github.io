@@ -2,7 +2,7 @@
 layout: page
 title: Precision C–H Functionalization
 description: Controlling selectivity in aromatic and aliphatic systems via non-covalent interactions.
-img: assets/img/borylation_project.jpg
+img: assets/img/projects_preview/borylation_project.jpg
 importance: 1
 category: work
 ---
