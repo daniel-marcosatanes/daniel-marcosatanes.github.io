@@ -23,3 +23,68 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* =======================================================
+   Personalización Estilo "Química Orgánica Moderna"
+   ======================================================= */
+
+/* 1. Importación de Fuentes (Montserrat y Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+    --chem-teal: #006d77;  /* Color Principal */
+    --chem-gold: #e29578;  /* Color Hover */
+}
+
+/* 2. Tipografía General */
+body, p, li, .post-content {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Títulos con Montserrat y color Teal */
+h1, h2, h3, h4, h5, h6, .post-title, .news-title {
+    font-family: 'Montserrat', sans-serif !important;
+    color: var(--chem-teal) !important;
+    font-weight: 600;
+}
+
+/* 3. Enlaces y Acentos */
+a, .social-icon:hover {
+    color: var(--chem-teal);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estado Hover (al pasar el ratón) */
+a:hover {
+    color: var(--chem-gold) !important;
+    text-decoration: none;
+}
+
+/* Color para iconos activos en el navbar (opcional, para consistencia) */
+header nav .nav-item.active .nav-link {
+    color: var(--chem-teal) !important;
+}
+
+/* 4. Estilo de Botones para Papers (Bib, PDF, Abstract) */
+/* Sobrescribe las clases de Bootstrap y al-folio (.btn, .z-depth-0) */
+.publications .links a.btn,
+.repository-links a.btn {
+    color: var(--chem-teal) !important;
+    background-color: transparent !important; /* Estilo Outline */
+    border: 1px solid var(--chem-teal) !important;
+    border-radius: 6px !important; /* Bordes redondeados */
+    box-shadow: none !important; /* Elimina sombras para un look más plano/sutil */
+    padding: 0.3rem 0.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Hover en los botones: Cambia al color Ocre */
+.publications .links a.btn:hover,
+.repository-links a.btn:hover {
+    color: var(--chem-gold) !important;
+    border-color: var(--chem-gold) !important;
+    background-color: rgba(226, 149, 120, 0.05) !important; /* Fondo muy sutil al pasar el ratón */
+}
