@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "Full CV available as a pdf",
@@ -50,6 +57,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-precision-c-h-functionalization",
+          title: 'Precision C–H Functionalization',
+          description: "Controlling selectivity in aromatic and aliphatic systems via non-covalent interactions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_ch_functionalization/";
+            },},{id: "projects-sustainable-polymer-upcycling",
+          title: 'Sustainable Polymer Upcycling',
+          description: "Transforming waste PVC into adhesive materials via catalytic borylation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_polymer_upcycling/";
+            },},{id: "projects-catalysis-in-biological-media",
+          title: 'Catalysis in Biological Media',
+          description: "Biocompatible Ruthenium transformations and steps towards chemical biology.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_bio_catalysis/";
+            },},{id: "projects-computational-mechanism-analysis",
+          title: 'Computational Mechanism Analysis',
+          description: "Rationalizing reactivity through DFT and Non-Covalent Interaction (NCI) analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_computational/";
             },},{
         id: 'social-email',
         title: 'email',
