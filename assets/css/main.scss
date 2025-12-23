@@ -116,30 +116,33 @@ header.post-header .social .contact-icons a {
     color: var(--chem-teal) !important;
 }
 
-/* --- FORZAR DISEÑO 2 COLUMNAS EN RESEARCH --- */
+/* --- FORZAR DISEÑO 2 COLUMNAS (VERSIÓN AGRESIVA) --- */
 
-/* En pantallas grandes (Desktop), usar el 50% del ancho (2 columnas) */
+/* Aplicar solo en tablets y escritorio (pantallas mayores a 768px) */
 @media (min-width: 768px) {
   .projects .grid-item,
   .projects .grid-sizer {
-      width: 49.5% !important; /* Casi 50% para asegurar que caben */
-  }
-
-  /* Ajustar el tamaño de la imagen para que llene la tarjeta más ancha */
-  .card-img-top {
-    height: 250px;       /* Altura fija para mantener la simetría de la cuadrícula */
-    object-fit: contain; /* ¡CAMBIO CLAVE! Ajusta la imagen sin recortarla */
-    padding: 5px;        /* Un poco de margen para que los átomos no toquen el borde */
-    background-color: #ffffff; /* Fondo blanco para integrar bien las estructuras */
-    width: 100%;         /* Asegura que ocupe el ancho disponible */
+      /* Forzar ancho al 50% anulando Bootstrap */
+      -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 50% !important;
+      flex: 0 0 50% !important;
+      max-width: 50% !important;
+      width: 50% !important;
   }
 }
 
-/* Arreglar el texto cortado en los títulos */
+/* Ajuste de la imagen: Que se vea entera (CONTAIN) y con fondo blanco */
+.card-img-top {
+    height: 250px !important;    /* Altura fija obligatoria */
+    object-fit: contain !important; /* Ajustar sin recortar */
+    padding: 10px;               /* Margen interno para que respire */
+    background-color: #ffffff;   /* Fondo blanco */
+    width: 100%;
+}
+
+/* Arreglar texto cortado */
 .card-title {
-    word-wrap: break-word; /* Evita que palabras largas se salgan */
-    hyphens: auto; /* Añade guiones si es necesario */
-    font-size: 1.1rem !important; /* Un pelín más pequeño si hace falta */
+    word-wrap: break-word;
+    hyphens: auto;
 }
-
 /* --- FIN DEL AJUSTE --- */
