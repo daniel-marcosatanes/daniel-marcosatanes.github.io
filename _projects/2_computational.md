@@ -7,12 +7,7 @@ importance: 2
 category: work
 ---
 
-<!-- HERO IMAGE: Tu imagen 3D espectacular -->
-<div class="row justify-content-center mb-5">
-    <div class="col-12">
-        <img src="/assets/img/dft.png" class="img-fluid rounded" style="width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" alt="DFT Structures">
-    </div>
-</div>
+<!-- BANNER -->
 
 <div class="row justify-content-center">
     <div class="col-12 col-md-8 text-center">

@@ -27,25 +27,26 @@ latest_posts:
 
 **Hi! I’m Daniel.**
 
-I’m an organic chemist driven by curiosity and precision. My approach combines the art of **synthetic methodology** with the logic of **computational chemistry** to design cleaner, smarter reactions.
+I am an organic chemist with a dual mindset: I love the **art of building molecules** in the fume hood, but I need the **logic of computation** to understand them.
 
-I believe the best science happens when you mix disciplines. That’s why I strive to bridge the gap between experimental synthesis (making the molecules) and DFT analysis (understanding how they form).
+My work focuses on **Precision Catalysis**. I design molecular tools (ligands) that use weak forces—like dispersion—to guide metals to specific bonds, turning difficult reactions into predictable ones.
 
-**My Journey So Far**
+**The Story So Far**
 
-I am currently a **Xunta de Galicia Postdoctoral Fellow** at **CiQUS** (Santiago de Compostela), continuing my research in the group of [**Prof. José Luis Mascareñas**](https://www.metbiocat.eu/).
+I am currently a **Xunta de Galicia Postdoctoral Fellow** at **CiQUS** (Santiago de Compostela), working with [**Prof. José Luis Mascareñas**](https://www.metbiocat.eu/).
 
-I defended my PhD *cum laude* in February 2025. My thesis, *"Ligand-Controlled Selective C–H Borylations"*, challenged the consensus that steric hindrance dictates selectivity. By engineering **bifunctional ligands** capable of harnessing **London dispersion forces**, we successfully inverted conventional site-selectivity, unlocking the difficult **ortho-borylation** of aromatic amides.
+My PhD thesis (Cum Laude, 2025) started with a question: *Can we override steric rules?*
+Catalysts usually go to the easiest, most open spot. We forced them to go to the crowded ones. By engineering ligands that "hug" the substrate via non-covalent interactions, we unlocked new pathways for **C–H functionalization** in both aromatic and aliphatic systems.
 
-My scientific path has been shaped by working with some of the best minds in the field:
+**Expanding the Toolbox**
 
-*   🌉 **The Berkeley Chapter (Fulbright Fellow):** In 2022-23, I joined the lab of [**Prof. John Hartwig**](https://hartwig.cchem.berkeley.edu/) at UC Berkeley.
-    *   My main focus was the **C–H activation of aliphatic precursors**, utilizing non-covalent interactions to guide selectivity.
-    *   I also conducted the preliminary work for their recent breakthrough on **transforming PVC into adhesive materials** via catalytic borylation (published in *JACS* 2025).
-*   💻 **The Computational Twist:** In 2021, I realized I needed to see "under the hood" of chemical reactions. I spent a month in Bilbao with [**Prof. Gonzalo Jiménez-Osés**](http://www.gonzalojimenezoses.com/) at the Computational Chemistry Lab, learning the ropes of computational chemistry. Since then, **DFT analysis** has become an inseparable part of my workflow.
+I believe innovation happens at the edges of disciplines. My path reflects that search for new tools:
+
+*   🌉 **Materials (Berkeley):** As a **Fulbright Fellow** in the [**Hartwig Lab**](https://hartwig.cchem.berkeley.edu/), I stepped out of my comfort zone to apply organometallic catalysis to polymers. We turned waste PVC into high-strength adhesives (Upcycling).
+*   💻 **Computation (Bilbao):** Realizing that intuition isn't enough, I trained with [**Prof. Gonzalo Jiménez-Osés**](http://www.gonzalojimenezoses.com/) to master **DFT**. Now, I don't just speculate on mechanisms; I model them.
 
 **What’s Next?**
 
-I’m already preparing for my next challenge. In **March 2026**, I will move to Bologna to join the [**Melchiorre Lab**](https://www.melchiorrelab.com/). I’ll be diving into the *Photozyme* project, exploring the exciting frontier where photocatalysis meets enzyme chemistry.
+In **March 2026**, I will join the [**Melchiorre Lab**](https://www.melchiorrelab.com/) in Bologna. I am excited to dive into the world of **Photozymes**, merging the power of light excitation with the exquisite selectivity of biology.
 
 ***
