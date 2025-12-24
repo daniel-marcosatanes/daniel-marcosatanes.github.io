@@ -74,22 +74,22 @@ ninja.data = [{
               window.location.href = "/news/Xunta_Postdoctoral_Fellowship/";
             },},{id: "projects-precision-c-h-functionalization",
           title: 'Precision C–H Functionalization',
-          description: "Controlling selectivity in aromatic and aliphatic systems via non-covalent interactions.",
+          description: "Controlling selectivity via non-covalent interactions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_ch_functionalization/";
             },},{id: "projects-sustainable-polymer-upcycling",
           title: 'Sustainable Polymer Upcycling',
-          description: "Transforming waste PVC into adhesive materials via catalytic borylation.",
+          description: "Giving new life to waste PVC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_polymer_upcycling/";
             },},{id: "projects-catalysis-in-biological-media",
           title: 'Catalysis in Biological Media',
-          description: "Biocompatible Ruthenium transformations and steps towards chemical biology.",
+          description: "Bridging the gap between synthetic chemistry and living systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_bio_catalysis/";
             },},{id: "projects-computational-mechanism-analysis",
           title: 'Computational Mechanism Analysis',
-          description: "Rationalizing reactivity through DFT and Non-Covalent Interaction (NCI) analysis.",
+          description: "Visualizing the invisible forces of chemistry.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_computational/";
             },},{
