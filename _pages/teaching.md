@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: Mentoring the next generation of chemists in the lab and the classroom.
+description:
 nav: true
 nav_order: 5
 ---
@@ -10,13 +10,9 @@ nav_order: 5
 <!-- SECCIÓN 1: HERO IMAGE (La Foto de la Vitrina) -->
 <div class="row mb-4">
     <div class="col-12">
-        <img src="/assets/img/teaching_hood.jpg" class="img-fluid rounded z-depth-1" style="width: 100%; object-fit: cover; max-height: 400px;" alt="Teaching in the fume hood">
-        <div class="caption">
-            "The best whiteboard is the fume hood sash." Explaining extraction techniques during a lab session.
-        </div>
+        <img src="/assets/img/teaching_hood.jpg" class="img-fluid rounded z-depth-1" style="width: 100%; object-fit: contain; max-height: 400px;" alt="Teaching in the fume hood">
     </div>
 </div>
-
 
 <!-- SECCIÓN 2: EXPERIENCIA (Tus Cursos) -->
 <div class="row mt-5">
