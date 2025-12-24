@@ -57,8 +57,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-phd-defense",
-          title: 'PhD Defense',
+            },},{id: "news-phd-defended-with-honors-cum-laude",
+          title: 'PhD Defended with Honors (Cum Laude)',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/PhD_Defense/";
@@ -79,7 +79,7 @@ ninja.data = [{
               window.location.href = "/projects/1_ch_functionalization/";
             },},{id: "projects-sustainable-polymer-upcycling",
           title: 'Sustainable Polymer Upcycling',
-          description: "Transforming waste PVC into tunable adhesive materials via catalytic organometallic modification.",
+          description: "Transforming waste PVC into adhesive materials via catalytic borylation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_polymer_upcycling/";
             },},{id: "projects-catalysis-in-biological-media",
