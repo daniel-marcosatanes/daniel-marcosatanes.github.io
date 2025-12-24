@@ -31,15 +31,15 @@ category: work
     </div>
 </div>
 
-<!-- SECCIÓN 2: LA PRECISIÓN (Imagen del Péptido) -->
-<div class="row align-items-center p-4 rounded" style="background-color: #f8f9fa;">
+<!-- SECCIÓN 2: LA PRECISIÓN (Integrado, sin caja) -->
+<div class="row align-items-center mb-5">
     <div class="col-12 col-md-5">
-        <h4>Precision Labeling</h4>
+        <h4 style="color: var(--chem-teal);">Precision Labeling</h4>
         <p>Why does this matter? Because it allows us to tag specific proteins or peptides at very low concentrations.</p>
         <p>We demonstrated the selective labeling of peptides containing reactive residues (Tyrosine, Cysteine) without side reactions. It's a new "click" reaction for the chemical biology toolbox.</p>
     </div>
     <div class="col-12 col-md-7 text-center">
-        <!-- Imagen del Esquema 4 (Péptidos) -->
-        <img src="/assets/img/bio_conjugation.png" class="img-fluid" style="mix-blend-mode: multiply;" alt="Peptide Functionalization">
+        <!-- Imagen: Le pongo fondo blanco y padding para que la molécula resalte sobre el fondo oscuro -->
+        <img src="/assets/img/bio_conjugation.png" class="img-fluid rounded" style="background-color: white; padding: 15px; width: 100%;" alt="Peptide Functionalization">
     </div>
 </div>
