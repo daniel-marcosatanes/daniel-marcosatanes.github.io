@@ -5,7 +5,7 @@ permalink: /projects/
 description: Bridging synthetic methodology and computational insight to design precision catalysts.
 nav: true
 nav_order: 3
-display_categories: [work]
+# display_categories: [work]
 horizontal: false
 ---
 

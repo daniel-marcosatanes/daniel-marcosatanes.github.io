@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Precision C–H Functionalization
-description: Controlling selectivity via non-covalent interactions.
+description: Overriding steric bias in C–H functionalization using ligand-directed non-covalent interactions.
 img: assets/img/projects_preview/borylation_project.jpg
 importance: 1
 category: work

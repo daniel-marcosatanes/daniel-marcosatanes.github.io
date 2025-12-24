@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sustainable Polymer Upcycling
-description: Giving new life to waste PVC.
+description: Transforming waste PVC into tunable adhesive materials via catalytic organometallic modification.
 img: assets/img/projects_preview/pvc_project.jpg
 importance: 2
 category: work

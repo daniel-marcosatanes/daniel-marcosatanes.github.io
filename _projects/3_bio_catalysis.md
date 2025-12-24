@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Catalysis in Biological Media
-description: Bridging the gap between synthetic chemistry and living systems.
+description: Developing biocompatible Ruthenium catalysts for bio-orthogonal chemistry in aqueous media.
 img: assets/img/projects_preview/bio_project.jpg
 importance: 3
 category: work

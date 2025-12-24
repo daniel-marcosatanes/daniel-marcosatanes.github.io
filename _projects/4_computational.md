@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Computational Mechanism Analysis
-description: Visualizing the invisible forces of chemistry.
+description: Elucidating reaction mechanisms and selectivity origins using DFT and NCI analysis.
 img: assets/img/projects_preview/dft_project.jpg
 importance: 4
 category: work
@@ -24,7 +24,7 @@ category: work
     </div>
 </div>
 
-!-- TRES COLUMNAS DE SKILLS CON ICONOS -->
+<!-- TRES COLUMNAS DE SKILLS CON ICONOS -->
 <div class="row mt-5 text-center">
 
     <!-- COLUMNA 1: NCI -->
