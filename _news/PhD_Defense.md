@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PhD Defense
+title: PhD Defended with Honors (Cum Laude)
 date: 2025-02-27 12:00:00-0400
 inline: false
 related_posts: false

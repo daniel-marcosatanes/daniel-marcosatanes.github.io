@@ -20,16 +20,18 @@ category: work
 
 <!-- SECCIÓN 2: LA SOLUCIÓN (Imagen Grande + Explicación Lateral) -->
 <div class="row align-items-center">
+    <!-- Columna Imagen -->
     <div class="col-12 col-md-7">
-        <!-- Usa aquí tu esquema colorido del Chemical Science (Rutenio en agua/célula) -->
-        <img src="/assets/img/bio_project.jpg" class="img-fluid rounded" style="box-shadow: 0 5px 15px rgba(0,0,0,0.05);" alt="Bioorthogonal Catalysis">
+        <!-- OJO: Revisa que esta ruta sea correcta. He puesto la misma que en el header -->
+        <img src="/assets/img/projects_preview/bio_project.jpg" class="img-fluid rounded" style="box-shadow: 0 5px 15px rgba(0,0,0,0.05); width: 100%;" alt="Bioorthogonal Catalysis">
     </div>
-    <div class="col-12 col-md-5 mt-4 mt-md-0">
-        <h4>The Challenge</h4>
-        <p>Most transition metal catalysts die instantly in physiological media. They are poisoned by water, salts, or cellular thiols.</p>
 
-        <h4>The Breakthrough</h4>
-        <p>We developed a robust <strong>Ruthenium(II) system</strong> capable of promoting alkene-alkyne couplings right in the middle of this chemical chaos.</p>
-        <p>This isn't just about making bonds; it's about doing it <strong>cleanly and selectively</strong> in aqueous environments, opening the door to modifying biomolecules in their native state.</p>
+    <!-- Columna Texto -->
+    <div class="col-12 col-md-5 mt-4 mt-md-0">
+        <h4>The Hostile Environment</h4>
+        <p>To a synthetic chemist, a cell is a nightmare. It is full of water (which kills catalysts), thiols (which poison metals), and thousands of competing molecules.</p>
+
+        <h4>The Survivor</h4>
+        <p>We engineered a <strong>Ruthenium(II) system</strong> robust enough to survive this chemical chaos. It promotes bio-orthogonal alkene-alkyne couplings in water and complex media, proving that organometallic chemistry can operate in harmony with biology.</p>
     </div>
 </div>

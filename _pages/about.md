@@ -35,9 +35,7 @@ I believe the best science happens when you mix disciplines. That’s why I stri
 
 I am currently a **Xunta de Galicia Postdoctoral Fellow** at **CiQUS** (Santiago de Compostela), continuing my research in the group of [**Prof. José Luis Mascareñas**](https://www.metbiocat.eu/).
 
-I defended my PhD *cum laude* here in February 2025. My thesis, titled *"Ligand-Controlled Selective C–H Borylations"*, explored a precision approach to modify complex molecules:
-*   We designed **bifunctional fluorinated ligands** (like 5-CF₃-bipy) capable of directing Iridium catalysts via **non-covalent dispersion interactions**.
-*   This strategy allowed us to invert conventional selectivity, achieving the challenging **ortho-borylation of aromatic amides** and unlocking new pathways for **C(sp³)–H functionalization** in aliphatic systems.
+I defended my PhD *cum laude* in February 2025. My thesis, *"Ligand-Controlled Selective C–H Borylations"*, challenged the consensus that steric hindrance dictates selectivity. By engineering **bifunctional ligands** capable of harnessing **London dispersion forces**, we successfully inverted conventional site-selectivity, unlocking the difficult **ortho-borylation** of aromatic amides.
 
 My scientific path has been shaped by working with some of the best minds in the field:
 

@@ -7,15 +7,15 @@ importance: 1
 category: work
 ---
 
-<!-- SECCIÓN 1: EL CONCEPTO (Texto Izq / Esquema Der) -->
+<!-- SECCIÓN 1: EL CONCEPTO -->
 <div class="row mt-4 align-items-center">
     <div class="col-12 col-md-6">
         <h3>The Challenge: Overriding Sterics</h3>
-        <p>In the world of C–H activation, steric hindrance usually dictates the rules. Catalysts naturally go to the most accessible position. But what if we want to target the crowded, difficult sites?</p>
-        <p>During my PhD, we changed the rules of the game. We designed <strong>fluorinated ligands</strong> that don't just bind the metal, but also "talk" to the substrate through <strong>dispersion forces</strong>.</p>
+        <p>In C–H activation, catalysts are lazy: they naturally react at the most accessible (least hindered) position. But mostly, the valuable chemistry happens at the crowded sites.</p>
+        <p><strong>We changed the rules.</strong> Instead of fighting sterics with smaller ligands, we embraced <strong>non-covalent interactions</strong>. By designing ligands that "dock" onto the substrate via dispersion forces, we directed the Iridium catalyst exactly where we wanted it—even if it was the most crowded spot.</p>
     </div>
     <div class="col-12 col-md-6">
-        <!-- Pon aquí tu esquema de la reacción (Angewandte) limpio, sin bordes -->
+        <!-- Tu esquema de reacción -->
         <img src="/assets/img/borylation_project.jpg" class="img-fluid rounded" style="width: 100%;" alt="Reaction Scheme">
     </div>
 </div>
