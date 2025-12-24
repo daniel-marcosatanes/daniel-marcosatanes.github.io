@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "Research",
-          description: "A growing collection of your cool projects.",
+          description: "Bridging synthetic methodology and computational insight to design precision catalysts.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
