@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Bridging synthetic methodology and computational insight to design precision catalysts.
 nav: true
 nav_order: 3
 display_categories: [work]
