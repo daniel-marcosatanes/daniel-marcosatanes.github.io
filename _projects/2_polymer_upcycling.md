@@ -1,21 +1,21 @@
 ---
 layout: page
 title: Sustainable Polymer Upcycling
-description: Transforming waste PVC into adhesive materials via catalytic borylation.
+description: Giving new life to waste PVC.
 img: assets/img/projects_preview/pvc_project.jpg
 importance: 2
 category: work
 ---
 
-Plastic waste is one of the most pressing environmental challenges of our time. During my Fulbright stay in the **Hartwig Lab (UC Berkeley)**, I had the opportunity to step out of traditional synthesis and apply organometallic catalysis to **macromolecules**.
-
-### The Challenge: PVC
-Poly(vinyl chloride) (PVC) is notoriously difficult to recycle chemically due to its instability and tendency to release HCl. The goal was to find a method to functionalize it directly to give it new, valuable properties without degrading the polymer chain.
-
-### My Contribution
-I conducted the **preliminary experimental work** on the catalytic borylation of PVC chains.
-*   We explored copper and iridium catalytic systems to replace C–Cl or C–H bonds with boron motifs.
-*   This preliminary data contributed to the development of a robust method capable of transforming brittle PVC into **tunable adhesive materials**.
-
-### Result
-This research culminated in a breakthrough publication by the group in **JACS (2025)**. It serves as a prime example of how fundamental reactivity principles (C–H/C–X activation) can be translated to solve macroscopic material problems.
+<div class="row mt-4 align-items-center">
+    <div class="col-12 col-md-5 order-md-2">
+         <!-- Imagen del PVC/Adhesivo (JACS) -->
+        <img src="/assets/img/pvc_project.jpg" class="img-fluid rounded" alt="PVC Upcycling">
+    </div>
+    <div class="col-12 col-md-7 order-md-1">
+        <h3>From Waste to Glue</h3>
+        <p><strong>Poly(vinyl chloride) (PVC)</strong> is one of the world's most common plastics, yet one of the hardest to recycle chemically.</p>
+        <p>In the Hartwig Lab, we asked a bold question: <em>Can we use organometallic catalysis to modify the polymer directly?</em></p>
+        <p>By replacing C–Cl bonds with organoboron groups, we transformed brittle waste plastic into a <strong>tunable adhesive material</strong>. This work proves that fundamental reactivity can solve macroscopic environmental problems.</p>
+    </div>
+</div>

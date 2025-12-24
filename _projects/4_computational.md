@@ -1,19 +1,54 @@
 ---
 layout: page
 title: Computational Mechanism Analysis
-description: Rationalizing reactivity through DFT and Non-Covalent Interaction (NCI) analysis.
+description: Visualizing the invisible forces of chemistry.
 img: assets/img/projects_preview/dft_project.jpg
 importance: 4
 category: work
 ---
 
-I advocate for a feedback loop between the fume hood and the computational cluster. Since my training at **CIC bioGUNE**, **Density Functional Theory (DFT)** has become an integral part of my research methodology.
+<!-- HERO IMAGE: Tu imagen 3D espectacular -->
+<div class="row justify-content-center mb-5">
+    <div class="col-12">
+        <img src="/assets/img/dft_full_structure.jpg" class="img-fluid rounded" style="width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" alt="DFT Structures">
+    </div>
+</div>
 
-### Visualizing the Invisible
-My approach goes beyond standard energy profiles. I utilize **Non-Covalent Interaction (NCI) plots** to visualize the subtle forces—such as dispersion and hydrogen bonding—that dictate enantioselectivity and regioselectivity.
+<div class="row justify-content-center">
+    <div class="col-12 col-md-8 text-center">
+        <h3>Beyond Energy Profiles</h3>
+        <p>
+            I don't view computation as a separate discipline, but as a lens to see what happens in the flask.
+            Using <strong>DFT (Density Functional Theory)</strong>, we model the precise transition states where bonds are made and broken.
+        </p>
+    </div>
+</div>
 
-In my recent work on amide borylation, computational modeling was crucial to:
-1.  Rule out alternative mechanisms.
-2.  Quantify the stabilization energy provided by the **5-CF₃ group**, confirming our dispersion-driven hypothesis.
+!-- TRES COLUMNAS DE SKILLS CON ICONOS -->
+<div class="row mt-5 text-center">
 
-This ability to provide mechanistic evidence strengthens experimental proposals and accelerates catalyst design.
+    <!-- COLUMNA 1: NCI -->
+    <div class="col-4">
+        <!-- Icono: Capas (simulando superficies) -->
+        <i class="fa-solid fa-layer-group fa-3x mb-3" style="color: var(--chem-teal);"></i>
+        <h4 style="font-weight: 600;">NCI Plot</h4>
+        <p style="font-size: 0.9rem; color: #666;">Visualizing weak dispersion forces & steric clashes.</p>
+    </div>
+
+    <!-- COLUMNA 2: Gibbs Energy -->
+    <div class="col-4">
+        <!-- Icono: Gráfica de línea -->
+        <i class="fa-solid fa-chart-line fa-3x mb-3" style="color: var(--chem-teal);"></i>
+        <h4 style="font-weight: 600;">Gibbs Energy</h4>
+        <p style="font-size: 0.9rem; color: #666;">Predicting reaction rates (TS) and regioselectivity.</p>
+    </div>
+
+    <!-- COLUMNA 3: Conformational -->
+    <div class="col-4">
+        <!-- Icono: Flechas girando (simulando rotación) -->
+        <i class="fa-solid fa-arrows-spin fa-3x mb-3" style="color: var(--chem-teal);"></i>
+        <h4 style="font-weight: 600;">Conformational</h4>
+        <p style="font-size: 0.9rem; color: #666;">Exploring flexible ligands with CREST/xTB.</p>
+    </div>
+
+</div>

@@ -1,20 +1,35 @@
 ---
 layout: page
 title: Precision C–H Functionalization
-description: Controlling selectivity in aromatic and aliphatic systems via non-covalent interactions.
+description: Controlling selectivity via non-covalent interactions.
 img: assets/img/projects_preview/borylation_project.jpg
 importance: 1
 category: work
 ---
 
-The core of my research lies in solving the "selectivity puzzle" in transition-metal catalysis. How can we target a specific C–H bond in a complex molecule without relying on traditional steric rules?
+<!-- SECCIÓN 1: EL CONCEPTO (Texto Izq / Esquema Der) -->
+<div class="row mt-4 align-items-center">
+    <div class="col-12 col-md-6">
+        <h3>The Challenge: Overriding Sterics</h3>
+        <p>In the world of C–H activation, steric hindrance usually dictates the rules. Catalysts naturally go to the most accessible position. But what if we want to target the crowded, difficult sites?</p>
+        <p>During my PhD, we changed the rules of the game. We designed <strong>fluorinated ligands</strong> that don't just bind the metal, but also "talk" to the substrate through <strong>dispersion forces</strong>.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <!-- Pon aquí tu esquema de la reacción (Angewandte) limpio, sin bordes -->
+        <img src="/assets/img/borylation_project.jpg" class="img-fluid rounded" style="width: 100%;" alt="Reaction Scheme">
+    </div>
+</div>
 
-### The "Dispersion" Strategy (PhD Work)
-During my PhD, we hypothesized that weak **non-covalent interactions (NCIs)** could be harnessed to direct metal catalysts.
-*   **Aromatic Systems:** We designed **5-CF₃-bipyridine ligands** that leverage London dispersion forces to interact with substrate carbonyls. This overturned conventional selectivity, enabling the challenging **ortho-borylation of aromatic amides** (*Angew. Chem. Int. Ed.* 2023).
-*   **Aliphatic Extension:** We successfully translated this concept to sp³ centers, achieving the borylation of **N-methylamides** (*ACS Catal.* 2025).
+<hr style="margin: 3rem 0; border: 0; border-top: 1px solid rgba(0,0,0,0.1);">
 
-### Advancing into Aliphatics (Berkeley)
-During my Fulbright stay in the **Hartwig Lab**, I deepened my expertise in aliphatic functionalization. I worked on designing supramolecular catalytic systems capable of discriminating between chemically equivalent C(sp³)–H bonds in alkyl chains, utilizing similar principles of hydrogen bonding and molecular recognition.
-
-This coherent body of work demonstrates that **ligand engineering**—specifically through the lens of non-covalent interactions—is a universal tool for precise molecular editing.
+<!-- SECCIÓN 2: EL ALCANCE (Tu MolCloud a lo grande) -->
+<div class="row mt-4">
+    <div class="col-12 text-center">
+        <h3>A Universe of New Molecules</h3>
+        <p class="mb-4" style="max-width: 700px; margin: 0 auto;">
+            This isn't just a niche reaction. By harnessing non-covalent interactions, we unlocked a vast chemical space, synthesizing a library of complex aromatic and aliphatic amides previously inaccessible.
+        </p>
+        <!-- Tu imagen MolCloud ocupando todo el ancho -->
+        <img src="/assets/img/thesis_cloud.jpg" class="img-fluid" style="width: 100%; opacity: 0.9;" alt="Chemical Space">
+    </div>
+</div>
