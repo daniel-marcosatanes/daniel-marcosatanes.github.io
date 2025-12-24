@@ -33,3 +33,20 @@ category: work
         <img src="/assets/img/thesis_cloud.png" class="img-fluid" style="width: 100%; opacity: 0.9;" alt="Chemical Space">
     </div>
 </div>
+
+<hr style="margin: 3rem 0; border: 0; border-top: 1px solid rgba(0,0,0,0.1);">
+
+<!-- VISOR 3D: EL CIERRE INTERACTIVO -->
+<div class="row mb-5 justify-content-center">
+    <div class="col-12 col-md-10 text-center p-5 rounded" style="background-color: #f8f9fa; border: 1px solid #e0e0e0;">
+        <h3 style="color: var(--chem-teal); font-weight: 700;">Dive Deeper into the Data</h3>
+        <p style="font-size: 1.1rem;">
+            Static images only tell half the story. I have built an interactive web-viewer to explore the <strong>optimized geometries and transition states</strong> of the thesis library.
+        </p>
+
+        <a href="https://danielmarcosatanes.github.io/DMA_thesis-viewer/" target="_blank" class="btn btn-lg z-depth-1 mt-3" style="background-color: var(--chem-teal); color: white; padding: 12px 30px; font-weight: 600; border-radius: 30px;">
+            <i class="fa-solid fa-cube mr-2"></i> Launch 3D Viewer
+        </a>
+        <p class="mt-3 small text-muted">View structures directly in your browser. No software required.</p>
+    </div>
+</div>
