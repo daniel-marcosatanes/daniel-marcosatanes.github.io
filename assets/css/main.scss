@@ -112,3 +112,11 @@ header nav .nav-item.active .nav-link {
     font-size: 0.95rem;
     color: #555;
 }
+
+/* Mejora de Lectura (Clean Academic Look) */
+p {
+    text-align: left;       /* Alineado a la izquierda (Estándar moderno) */
+    line-height: 1.7;       /* Un poco más de aire entre líneas hace que parezca más "premium" */
+    margin-bottom: 1.5rem;  /* Buen espacio entre párrafos en lugar de sangría */
+    color: #333;            /* Un gris muy oscuro es mejor que negro puro para leer */
+}
