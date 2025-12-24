@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Mentoring the next generation of chemists in the lab and the classroom.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
