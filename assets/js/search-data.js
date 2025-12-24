@@ -84,21 +84,21 @@ ninja.data = [{
           description: "Overriding steric bias in C–H functionalization using ligand-directed non-covalent interactions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_ch_functionalization/";
-            },},{id: "projects-sustainable-polymer-upcycling",
-          title: 'Sustainable Polymer Upcycling',
-          description: "Transforming waste PVC into adhesive materials via catalytic borylation.",
+            },},{id: "projects-computational-mechanism-analysis",
+          title: 'Computational Mechanism Analysis',
+          description: "Elucidating reaction mechanisms and selectivity origins using DFT and NCI analysis.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_polymer_upcycling/";
+              window.location.href = "/projects/2_computational/";
             },},{id: "projects-catalysis-in-biological-media",
           title: 'Catalysis in Biological Media',
           description: "Developing biocompatible Ruthenium catalysts for bio-orthogonal chemistry in aqueous media.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_bio_catalysis/";
-            },},{id: "projects-computational-mechanism-analysis",
-          title: 'Computational Mechanism Analysis',
-          description: "Elucidating reaction mechanisms and selectivity origins using DFT and NCI analysis.",
+            },},{id: "projects-sustainable-polymer-upcycling",
+          title: 'Sustainable Polymer Upcycling',
+          description: "Turning waste plastic into high-performance adhesive materials.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_computational/";
+              window.location.href = "/projects/4_polymer_upcycling/";
             },},{
         id: 'social-email',
         title: 'email',
