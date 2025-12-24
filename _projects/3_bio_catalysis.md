@@ -2,7 +2,7 @@
 layout: page
 title: Catalysis in Biological Media
 description: Developing biocompatible Ruthenium catalysts for bio-orthogonal chemistry in aqueous media.
-img: assets/img/projects_preview/bio_project.jpg
+img: assets/img/projects_preview/bio_project.png
 importance: 3
 category: work
 ---

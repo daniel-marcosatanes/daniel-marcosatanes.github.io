@@ -2,7 +2,7 @@
 layout: page
 title: Computational Mechanism Analysis
 description: Elucidating reaction mechanisms and selectivity origins using DFT and NCI analysis.
-img: assets/img/projects_preview/dft_project.jpg
+img: assets/img/projects_preview/dft_project.png
 importance: 4
 category: work
 ---
@@ -18,37 +18,61 @@ category: work
     <div class="col-12 col-md-8 text-center">
         <h3>Beyond Energy Profiles</h3>
         <p>
-            I don't view computation as a separate discipline, but as a lens to see what happens in the flask.
+            Computational chemistry serves as a lens to see what happens in the flask.
             Using <strong>DFT (Density Functional Theory)</strong>, we model the precise transition states where bonds are made and broken.
         </p>
     </div>
 </div>
 
-<!-- TRES COLUMNAS DE SKILLS CON ICONOS -->
-<div class="row mt-5 text-center">
+<!-- SECCIÓN DE COMPUTATIONAL TOOLBOX -->
+<div class="row mt-5">
+    <div class="col-12 text-center mb-4">
+        <h3>My Computational Toolbox</h3>
+    </div>
+</div>
 
-    <!-- COLUMNA 1: NCI -->
-    <div class="col-4">
-        <!-- Icono: Capas (simulando superficies) -->
-        <i class="fa-solid fa-layer-group fa-3x mb-3" style="color: var(--chem-teal);"></i>
-        <h4 style="font-weight: 600;">NCI Plot</h4>
-        <p style="font-size: 0.9rem; color: #666;">Visualizing weak dispersion forces & steric clashes.</p>
+<div class="row">
+    <!-- 1. GIBBS ENERGY -->
+    <div class="col-12 col-md-6 mb-4">
+        <div class="card h-100" style="border: none; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            <img src="/assets/img/gibbs.png" class="card-img-top p-2" alt="Reaction Profile">
+            <div class="card-body">
+                <h5 class="card-title" style="color: var(--chem-teal);">Reaction Profiles</h5>
+                <p class="card-text small">Mapping full energy landscapes to identify rate-determining steps and selectivities.</p>
+            </div>
+        </div>
     </div>
 
-    <!-- COLUMNA 2: Gibbs Energy -->
-    <div class="col-4">
-        <!-- Icono: Gráfica de línea -->
-        <i class="fa-solid fa-chart-line fa-3x mb-3" style="color: var(--chem-teal);"></i>
-        <h4 style="font-weight: 600;">Gibbs Energy</h4>
-        <p style="font-size: 0.9rem; color: #666;">Predicting reaction rates (TS) and regioselectivity.</p>
+    <!-- 2. NON-COVALENT INTERACTIONS -->
+    <div class="col-12 col-md-6 mb-4">
+        <div class="card h-100" style="border: none; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            <img src="/assets/img/nci.png" class="card-img-top p-2" alt="NCI Plot">
+            <div class="card-body">
+                <h5 class="card-title" style="color: var(--chem-teal);">NCI Analysis</h5>
+                <p class="card-text small">Visualizing weak forces (dispersion, H-bonds) that dictate ligand docking.</p>
+            </div>
+        </div>
     </div>
 
-    <!-- COLUMNA 3: Conformational -->
-    <div class="col-4">
-        <!-- Icono: Flechas girando (simulando rotación) -->
-        <i class="fa-solid fa-arrows-spin fa-3x mb-3" style="color: var(--chem-teal);"></i>
-        <h4 style="font-weight: 600;">Conformational</h4>
-        <p style="font-size: 0.9rem; color: #666;">Exploring flexible ligands with CREST/xTB.</p>
+    <!-- 3. ORBITAL ANALYSIS -->
+    <div class="col-12 col-md-6 mb-4">
+        <div class="card h-100" style="border: none; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            <img src="/assets/img/nbo.png" class="card-img-top p-2" alt="NBO Orbitals">
+            <div class="card-body">
+                <h5 class="card-title" style="color: var(--chem-teal);">NBO Analysis</h5>
+                <p class="card-text small">Studying orbital overlaps and electronic transfers in transition states.</p>
+            </div>
+        </div>
     </div>
 
+    <!-- 4. CONFORMATIONAL SEARCH -->
+    <div class="col-12 col-md-6 mb-4">
+        <div class="card h-100" style="border: none; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            <img src="/assets/img/crest.png" class="card-img-top p-2" alt="Conformational Sampling">
+            <div class="card-body">
+                <h5 class="card-title" style="color: var(--chem-teal);">Conformational Sampling</h5>
+                <p class="card-text small">Exploring flexible ligand dynamics using CREST/xTB molecular dynamics.</p>
+            </div>
+        </div>
+    </div>
 </div>

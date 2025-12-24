@@ -10,7 +10,7 @@ nav_order: 5
 <!-- SECCIÓN 1: HERO IMAGE (La Foto de la Vitrina) -->
 <div class="row mb-4">
     <div class="col-12">
-        <img src="/assets/img/teaching_hood.jpg" class="img-fluid rounded z-depth-1" style="width: 100%; object-fit: contain; max-height: 400px;" alt="Teaching in the fume hood">
+        <img src="/assets/img/teaching_hood.jpg" class="img-fluid rounded z-depth-1" style="width: 100%; object-fit: cover; max-height: 500px;" alt="Teaching in the fume hood">
     </div>
 </div>
 
@@ -83,5 +83,26 @@ nav_order: 5
         <p>
             Mentored pharmacy students in the multi-step synthesis of Active Pharmaceutical Ingredients (APIs). Emphasized recrystallization techniques and structural identification (NMR/IR).
         </p>
+    </div>
+</div>
+
+<hr style="margin: 4rem 0; border-top: 1px solid rgba(0,0,0,0.1);">
+
+<!-- SECCIÓN FINAL: CONTEXTO REAL -->
+<div class="row mb-3">
+    <div class="col-12 text-center">
+        <h3 style="color: var(--chem-teal);">Why We Do This</h3>
+        <p class="text-muted" style="max-width: 700px; margin: 0 auto;">
+            My ultimate goal as an educator is to show students that the molecules they synthesize in the flask are the building blocks of medicine, materials, and nature.
+        </p>
+    </div>
+</div>
+
+<div class="row justify-content-center mb-5">
+    <div class="col-12 col-md-10">
+        <img src="/assets/img/hexagons.png" class="img-fluid rounded z-depth-1" style="width: 100%;" alt="Applications of Organic Chemistry">
+        <div class="caption">
+            Connecting fundamental organic chemistry to real-world applications.
+        </div>
     </div>
 </div>

@@ -2,7 +2,7 @@
 layout: page
 title: Sustainable Polymer Upcycling
 description: Transforming waste PVC into adhesive materials via catalytic borylation.
-img: assets/img/pvc_project.jpg
+img: assets/img/pvc_project.png
 importance: 2
 category: work
 ---
