@@ -7,31 +7,39 @@ importance: 3
 category: work
 ---
 
-<!-- SECCIÓN 1: INTRODUCCIÓN IMPACTANTE -->
-<div class="row mb-5">
-    <div class="col-12 text-center">
-        <h3 style="font-weight: 700; color: var(--chem-teal);">Bringing Metal Catalysts "To Life"</h3>
-        <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto; color: #555;">
-            Synthetic organometallic chemistry typically fears water. Biological systems are full of it.
-            My goal is to make these two worlds compatible.
+<!-- HEADER: EL CONFLICTO -->
+<div class="row mb-5 text-center">
+    <div class="col-12">
+        <h3 style="font-weight: 700; color: var(--chem-teal); font-size: 2rem;">Chemistry vs. Biology</h3>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+            Synthetic chemists usually work in dry flasks under nitrogen. Biology happens in water, full of salts and "catalyst poisons".
+            <strong>My goal is to make metal catalysts feel at home in the cell.</strong>
         </p>
     </div>
 </div>
 
-<!-- SECCIÓN 2: LA SOLUCIÓN (Imagen Grande + Explicación Lateral) -->
-<div class="row align-items-center">
-    <!-- Columna Imagen -->
+<!-- SECCIÓN 1: EL SUPERVIVIENTE (Imagen de complejidad) -->
+<div class="row align-items-center mb-5">
     <div class="col-12 col-md-7">
-        <!-- OJO: Revisa que esta ruta sea correcta. He puesto la misma que en el header -->
-        <img src="/assets/img/projects_preview/bio_project.jpg" class="img-fluid rounded" style="box-shadow: 0 5px 15px rgba(0,0,0,0.05); width: 100%;" alt="Bioorthogonal Catalysis">
+        <!-- Imagen que muestre muchas biomoléculas o el entorno complejo -->
+        <img src="/assets/img/bio_concept.png" class="img-fluid rounded" alt="Biocompatibility Screening">
     </div>
-
-    <!-- Columna Texto -->
-    <div class="col-12 col-md-5 mt-4 mt-md-0">
+    <div class="col-12 col-md-5 mt-3 mt-md-0">
         <h4>The Hostile Environment</h4>
-        <p>To a synthetic chemist, a cell is a nightmare. It is full of water (which kills catalysts), thiols (which poison metals), and thousands of competing molecules.</p>
+        <p>Most transition metals die instantly in physiological media. Thiols (like glutathione) bind to them; water hydrolyzes them.</p>
+        <p>We engineered a <strong>Cationic Ruthenium System</strong> that is robust enough to ignore the noise. It catalyzes C–C bond formation (Alder-ene coupling) even in <strong>cell lysates and DMEM culture media</strong>.</p>
+    </div>
+</div>
 
-        <h4>The Survivor</h4>
-        <p>We engineered a <strong>Ruthenium(II) system</strong> robust enough to survive this chemical chaos. It promotes bio-orthogonal alkene-alkyne couplings in water and complex media, proving that organometallic chemistry can operate in harmony with biology.</p>
+<!-- SECCIÓN 2: LA PRECISIÓN (Imagen del Péptido) -->
+<div class="row align-items-center p-4 rounded" style="background-color: #f8f9fa;">
+    <div class="col-12 col-md-5">
+        <h4>Precision Labeling</h4>
+        <p>Why does this matter? Because it allows us to tag specific proteins or peptides at very low concentrations.</p>
+        <p>We demonstrated the selective labeling of peptides containing reactive residues (Tyrosine, Cysteine) without side reactions. It's a new "click" reaction for the chemical biology toolbox.</p>
+    </div>
+    <div class="col-12 col-md-7 text-center">
+        <!-- Imagen del Esquema 4 (Péptidos) -->
+        <img src="/assets/img/bio_conjugation.png" class="img-fluid" style="mix-blend-mode: multiply;" alt="Peptide Functionalization">
     </div>
 </div>

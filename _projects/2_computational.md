@@ -3,7 +3,7 @@ layout: page
 title: Computational Mechanism Analysis
 description: Elucidating reaction mechanisms and selectivity origins using DFT and NCI analysis.
 img: assets/img/projects_preview/dft_project.png
-importance: 4
+importance: 2
 category: work
 ---
 
