@@ -34,19 +34,24 @@ category: work
     </div>
 </div>
 
-<hr style="margin: 3rem 0; border: 0; border-top: 1px solid rgba(0,0,0,0.1);">
+<hr style="margin: 3rem 0; border: 0; border-top: 1px solid rgba(150,150,150,0.3);">
 
-<!-- VISOR 3D: EL CIERRE INTERACTIVO -->
+<!-- VISOR 3D: DISEÑO ADAPTATIVO (Outline) -->
 <div class="row mb-5 justify-content-center">
-    <div class="col-12 col-md-10 text-center p-5 rounded" style="background-color: #f8f9fa; border: 1px solid #e0e0e0;">
+    <!-- Cambios: background transparent y borde de color -->
+    <div class="col-12 col-md-10 text-center p-5 rounded" style="background-color: transparent; border: 2px solid var(--chem-teal);">
+
         <h3 style="color: var(--chem-teal); font-weight: 700;">Dive Deeper into the Data</h3>
-        <p style="font-size: 1.1rem;">
+
+        <!-- Quitamos el color fijo al párrafo para que se adapte al modo oscuro/claro -->
+        <p style="font-size: 1.1rem; margin-top: 1rem;">
             Static images only tell half the story. I have built an interactive web-viewer to explore the <strong>optimized geometries and transition states</strong> of the thesis library.
         </p>
 
-        <a href="https://danielmarcosatanes.github.io/DMA_thesis-viewer/" target="_blank" class="btn btn-lg z-depth-1 mt-3" style="background-color: var(--chem-teal); color: white; padding: 12px 30px; font-weight: 600; border-radius: 30px;">
+        <a href="https://danielmarcosatanes.github.io/DMA_thesis-viewer/" target="_blank" class="btn btn-lg z-depth-1 mt-3" style="background-color: var(--chem-teal); color: white; padding: 12px 30px; font-weight: 600; border-radius: 30px; border: none;">
             <i class="fa-solid fa-cube mr-2"></i> Launch 3D Viewer
         </a>
-        <p class="mt-3 small text-muted">View structures directly in your browser. No software required.</p>
+
+        <p class="mt-3 small" style="opacity: 0.7;">View structures directly in your browser. No software required.</p>
     </div>
 </div>

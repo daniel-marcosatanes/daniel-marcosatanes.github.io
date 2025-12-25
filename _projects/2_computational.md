@@ -19,20 +19,25 @@ category: work
     </div>
 </div>
 
-<!-- VISOR 3D: DEMOSTRACIÓN TÉCNICA -->
+<!-- VISOR 3D: BANNER LIMPIO -->
 <div class="row mt-5 mb-5">
     <div class="col-12">
-        <div class="d-flex align-items-center p-4 rounded" style="background: linear-gradient(135deg, rgba(0,109,119,0.1) 0%, rgba(255,255,255,0) 100%); border-left: 5px solid var(--chem-teal);">
+        <!-- Cambios: Fondo transparente, borde izquierdo grueso y borde fino alrededor -->
+        <div class="d-flex align-items-center p-4 rounded" style="background-color: transparent; border: 1px solid var(--chem-teal); border-left: 6px solid var(--chem-teal);">
+
             <div class="mr-4 d-none d-sm-block">
                 <i class="fa-solid fa-laptop-code fa-3x" style="color: var(--chem-teal);"></i>
             </div>
+
             <div>
-                <h4 style="margin-bottom: 5px; font-weight: 700;">Interactive Structure Database</h4>
+                <h4 style="margin-bottom: 5px; font-weight: 700; color: var(--chem-teal);">Interactive Structure Database</h4>
                 <p class="mb-2">Explore the full collection of computed intermediates and transition states from my research in an interactive 3D environment.</p>
-                <a href="https://danielmarcosatanes.github.io/DMA_thesis-viewer/" target="_blank" style="color: var(--chem-teal); font-weight: 700; text-decoration: underline;">
+
+                <a href="https://danielmarcosatanes.github.io/DMA_thesis-viewer/" target="_blank" style="color: var(--chem-teal); font-weight: 700; text-decoration: none;">
                     Open Thesis Viewer <i class="fa-solid fa-arrow-right ml-1"></i>
                 </a>
             </div>
+
         </div>
     </div>
 </div>
