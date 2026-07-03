@@ -70,6 +70,24 @@ layout: default
     </div>
   </article>
 
+  <!-- UX Improvement: Post Navigation -->
+  <div class="row post-pagination d-flex justify-content-between">
+    <div class="col-6 text-left">
+      {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="text-decoration-none">
+        <i class="fas fa-arrow-left"></i> {{ page.previous.title }}
+      </a>
+      {% endif %}
+    </div>
+    <div class="col-6 text-right">
+      {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="text-decoration-none">
+        {{ page.next.title }} <i class="fas fa-arrow-right"></i>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+
   {% if page.citation %}
     {% include citation.liquid %}
   {% endif %}

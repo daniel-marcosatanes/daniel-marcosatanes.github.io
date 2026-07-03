@@ -44,6 +44,21 @@ body.sticky-bottom-footer {
  * Publications
  ******************************************************************************/
 
+// Publication list enhancements for mobile
+@media (max-width: 576px) {
+  .bibliography {
+    .row {
+      margin-bottom: 2rem;
+    }
+    .abbr {
+      margin-bottom: 0.5rem;
+    }
+    .title {
+      font-size: 1.1rem;
+    }
+  }
+}
+
 // TODO: redefine publications layout.
 
 /*****************************************************************************

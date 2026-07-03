@@ -2,6 +2,15 @@ import { highlightSearchTerm } from "./highlight-search-term.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   // actual bibsearch logic
+  /**
+   * Filters bibliography items based on the search query.
+   * If CSS Custom Highlight API is supported, highlights the term and hides non-matching items;
+   * otherwise, falls back to text matching. Also hides grouping elements (e.g., years)
+   * if all items under them are hidden.
+   *
+   * @param {string} searchTerm - The query term to filter bibliography items.
+   * @returns {void}
+   */
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
@@ -50,6 +59,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
+  /**
+   * Reads the current search term from the URL hash, updates the input field,
+   * and triggers the filtering logic.
+   *
+   * @returns {void}
+   */
   const updateInputField = () => {
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
     document.getElementById("bibsearch").value = hashValue;

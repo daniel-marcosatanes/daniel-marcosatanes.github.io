@@ -1,3 +1,12 @@
+/**
+ * Handles the submit event for the newsletter signup form.
+ * Prevents the default action, performs client-side rate limiting checks,
+ * updates UI buttons, submits form data asynchronously, and handles
+ * success/error responses.
+ *
+ * @param {Event} event - The form submit Event.
+ * @returns {void}
+ */
 function submitHandler(event) {
   event.preventDefault();
   var container = event.target.parentNode;
@@ -10,6 +19,11 @@ function submitHandler(event) {
   var submitButton = container.querySelector(".newsletter-form-button");
   var loadingButton = container.querySelector(".newsletter-loading-button");
 
+  /**
+   * Updates the UI to display the rate limit error state.
+   *
+   * @returns {void}
+   */
   const rateLimit = () => {
     errorContainer.style.display = "flex";
     errorMessage.innerText = "Too many signups, please try again in a little while";
@@ -76,6 +90,13 @@ function submitHandler(event) {
       backButton.style.display = "block";
     });
 }
+
+/**
+ * Resets the newsletter signup form to its initial state.
+ *
+ * @param {Event} event - The button click Event.
+ * @returns {void}
+ */
 function resetFormHandler(event) {
   var container = event.target.parentNode;
   var formInput = container.querySelector(".newsletter-form-input");

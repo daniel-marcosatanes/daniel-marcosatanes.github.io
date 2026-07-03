@@ -38,6 +38,12 @@
  * search.addEventListener("input", () => {
  *   highlightSearchTerm({ search: search.value, selector: ".content" });
  * });
+ *
+ * @param {Object} params - The arguments object.
+ * @param {string} params.search - The query string to highlight.
+ * @param {string} params.selector - The CSS selector for target elements.
+ * @param {string} [params.customHighlightName="search"] - The CSS Highlight API registration name.
+ * @returns {Element[]|undefined} Array of non-matching Elements, or undefined if browser support is missing or search query is empty.
  */
 const highlightSearchTerm = ({ search, selector, customHighlightName = "search" }) => {
   if (!selector) {
@@ -78,6 +84,13 @@ const highlightSearchTerm = ({ search, selector, customHighlightName = "search" 
   return nonMatchingElements; // modified: return `nonMatchingElements`
 };
 
+/**
+ * Traverses an element to find all text nodes whose content contains the search text.
+ *
+ * @param {Element} element - The DOM element to traverse.
+ * @param {string} text - The search string to check for.
+ * @returns {Text[]} Array of text nodes matching the search query.
+ */
 const getTextNodesInElementContainingText = (element, text) => {
   const nodes = [];
   const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
@@ -91,6 +104,13 @@ const getTextNodesInElementContainingText = (element, text) => {
 };
 
 // Fix: We changed this function to work on the node directly, rather than on its parent element.
+/**
+ * Computes all text ranges matching the search query within a specific text node.
+ *
+ * @param {Text} node - The text node to search.
+ * @param {string} search - The query term to find.
+ * @returns {Range[]} List of Range objects highlighting the matching search terms.
+ */
 const getRangesForSearchTermInNode = (node, search) => {
   const ranges = [];
   const text = (node.textContent ? node.textContent.toLowerCase() : "") || "";

@@ -1,6 +1,11 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-// Toggle through light, dark, and system theme settings.
+/**
+ * Toggles through light, dark, and system theme settings.
+ * Cycles from system -> light -> dark -> system.
+ *
+ * @returns {void}
+ */
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
@@ -12,7 +17,13 @@ let toggleThemeSetting = () => {
   }
 };
 
-// Change the theme setting and apply the theme.
+/**
+ * Changes the theme setting saved in LocalStorage, updates the HTML attribute,
+ * and triggers applying the theme.
+ *
+ * @param {string} themeSetting - The target theme setting ("light", "dark", or "system").
+ * @returns {void}
+ */
 let setThemeSetting = (themeSetting) => {
   localStorage.setItem("theme", themeSetting);
 
@@ -21,7 +32,13 @@ let setThemeSetting = (themeSetting) => {
   applyTheme();
 };
 
-// Apply the computed dark or light theme to the website.
+/**
+ * Computes and applies the theme (dark or light) to the website, updates
+ * third-party integrations (Giscus, Mermaid, Diff2html, ECharts, Plotly, Vega-Lite),
+ * changes tables/Jupyter themes, and updates zoom overlays.
+ *
+ * @returns {void}
+ */
 let applyTheme = () => {
   let theme = determineComputedTheme();
 
@@ -88,6 +105,12 @@ let applyTheme = () => {
   }
 };
 
+/**
+ * Toggles the visibility of highlight themes in document head.
+ *
+ * @param {string} theme - The target computed theme ("dark" or "light").
+ * @returns {void}
+ */
 let setHighlight = (theme) => {
   if (theme == "dark") {
     document.getElementById("highlight_theme_light").media = "none";
@@ -98,6 +121,12 @@ let setHighlight = (theme) => {
   }
 };
 
+/**
+ * Posts a message to Giscus iframe to update its theme configuration.
+ *
+ * @param {string} theme - The target computed theme ("dark" or "light").
+ * @returns {void}
+ */
 let setGiscusTheme = (theme) => {
   function sendMessage(message) {
     const iframe = document.querySelector("iframe.giscus-frame");
@@ -112,6 +141,13 @@ let setGiscusTheme = (theme) => {
   });
 };
 
+/**
+ * Callback observer function to add zooming capabilities using D3 to Mermaid diagrams.
+ *
+ * @param {MutationRecord[]} records - List of MutationRecords.
+ * @param {MutationObserver} observer - The observer instance.
+ * @returns {void}
+ */
 let addMermaidZoom = (records, observer) => {
   var svgs = d3.selectAll(".mermaid svg");
   svgs.each(function () {
@@ -126,6 +162,12 @@ let addMermaidZoom = (records, observer) => {
   observer.disconnect();
 };
 
+/**
+ * Re-renders Mermaid diagrams and updates their theme dynamically.
+ *
+ * @param {string} theme - The target computed theme ("dark" or "light").
+ * @returns {void}
+ */
 let setMermaidTheme = (theme) => {
   if (theme == "light") {
     // light theme name in mermaid is 'default'
@@ -152,6 +194,12 @@ let setMermaidTheme = (theme) => {
   }
 };
 
+/**
+ * Re-renders diff2html instances using the computed theme.
+ *
+ * @param {string} theme - The target computed theme ("dark" or "light").
+ * @returns {void}
+ */
 let setDiff2htmlTheme = (theme) => {
   document.querySelectorAll(".diff2html").forEach((elem) => {
     // Get the code block content from previous element, since it is the diff code itself as defined in Markdown, but it is hidden
@@ -163,6 +211,12 @@ let setDiff2htmlTheme = (theme) => {
   });
 };
 
+/**
+ * Re-initializes and updates ECharts instances using the computed theme.
+ *
+ * @param {string} theme - The target computed theme ("dark" or "light").
+ * @returns {void}
+ */
 let setEchartsTheme = (theme) => {
   document.querySelectorAll(".echarts").forEach((elem) => {
     // Get the code block content from previous element, since it is the echarts code itself as defined in Markdown, but it is hidden
@@ -220,6 +274,12 @@ let setPlotlyTheme = (theme) => {
   });
 };
 
+/**
+ * Re-renders Vega-Lite chart instances with the computed theme.
+ *
+ * @param {string} theme - The target computed theme ("dark" or "light").
+ * @returns {void}
+ */
 let setVegaLiteTheme = (theme) => {
   document.querySelectorAll(".vega-lite").forEach((elem) => {
     // Get the code block content from previous element, since it is the vega lite code itself as defined in Markdown, but it is hidden
@@ -233,6 +293,12 @@ let setVegaLiteTheme = (theme) => {
   });
 };
 
+/**
+ * Toggles search modal's Ninja Keys component theme mode.
+ *
+ * @param {string} theme - The target computed theme ("dark" or "light").
+ * @returns {void}
+ */
 let setSearchTheme = (theme) => {
   const ninjaKeys = document.querySelector("ninja-keys");
   if (!ninjaKeys) return;
@@ -244,6 +310,11 @@ let setSearchTheme = (theme) => {
   }
 };
 
+/**
+ * Adds temporary transition animation class to the HTML element.
+ *
+ * @returns {void}
+ */
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
@@ -251,8 +322,12 @@ let transTheme = () => {
   }, 500);
 };
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+/**
+ * Determines current theme configuration setting from localStorage.
+ * Defaults to "system".
+ *
+ * @returns {string} Expected state setting ("dark", "light", or "system").
+ */
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
@@ -261,8 +336,11 @@ let determineThemeSetting = () => {
   return themeSetting;
 };
 
-// Determine the computed theme, which can be "dark" or "light". If the theme setting is
-// "system", the computed theme is determined based on the user's system preference.
+/**
+ * Computes actual theme state ("dark" or "light") taking system preference into account if set to system.
+ *
+ * @returns {string} Computed theme string ("dark" or "light").
+ */
 let determineComputedTheme = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
@@ -277,6 +355,11 @@ let determineComputedTheme = () => {
   }
 };
 
+/**
+ * Initializes theme, sets up click event listener for theme toggle button and system preference listener.
+ *
+ * @returns {void}
+ */
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
 

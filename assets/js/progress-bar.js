@@ -18,10 +18,11 @@ const progressBar = $("#progress");
 window.onload = function () {
   setTimeout(progressBarSetup, 50);
 };
-/*
- * We set up the bar according to the browser.
- * If the browser supports the progress element we use that.
- * Otherwise, we resize the bar thru CSS styling
+/**
+ * Initializes and registers scroll/resize event listeners for the progress bar.
+ * Detects if the browser native 'progress' element is supported.
+ *
+ * @returns {void}
  */
 function progressBarSetup() {
   if ("max" in document.createElement("progress")) {
@@ -36,15 +37,22 @@ function progressBarSetup() {
     $(window).on("resize", resizeProgressBar);
   }
 }
-/*
- * The vertical scroll position is the same as the number of pixels that
- * are hidden from view above the scrollable area. Thus, a value > 0 is
- * how much the user has scrolled from the top
+
+/**
+ * Retrieves the current vertical scroll position of the window.
+ *
+ * @returns {number} The current vertical scroll position in pixels.
  */
 function getCurrentScrollPosition() {
   return $(window).scrollTop();
 }
 
+/**
+ * Computes and initializes dimensions and offsets for the progress element.
+ * Accounts for the height of the fixed navigation bar.
+ *
+ * @returns {void}
+ */
 function initializeProgressElement() {
   let navbarHeight = $("#navbar").outerHeight(true);
   $("body").css({ "padding-top": navbarHeight });
@@ -55,19 +63,31 @@ function initializeProgressElement() {
     value: getCurrentScrollPosition(),
   });
 }
-/*
- * The offset between the html document height and the browser viewport
- * height will be greater than zero if vertical scroll is possible.
- * This is the distance the user can scroll
+
+/**
+ * Computes the total scrollable height distance of the document.
+ *
+ * @returns {number} The maximum scrollable distance in pixels.
  */
 function getDistanceToScroll() {
   return $(document).height() - $(window).height();
 }
 
+/**
+ * Adjusts the width percentage of the custom progress bar based on user scroll position.
+ * Used as a fallback when native progress element is unsupported.
+ *
+ * @returns {void}
+ */
 function resizeProgressBar() {
   progressBar.css({ width: getWidthPercentage() + "%" });
 }
-// The scroll ratio equals the percentage to resize the bar
+
+/**
+ * Computes the percentage of the current scroll position relative to total scrollable height.
+ *
+ * @returns {number} Scroll percentage value between 0 and 100.
+ */
 function getWidthPercentage() {
   return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
 }
