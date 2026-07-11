@@ -28,7 +28,7 @@ nav_order: 5
         <i class="fa-solid fa-flask fa-2x" style="color: #ccc;"></i>
     </div>
     <div class="col-11">
-        <h4 style="margin-bottom: 5px;">Fundamentals of Organic Synthesis</h4>
+        <h4 style="margin-bottom: 5px;">Fundamentals of Organic Synthesis <span style="color: var(--chem-teal); font-size: 0.85em;"> — Advanced Lab</span></h4>
         <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 5px;">
             <em>Faculty of Chemistry | 2022</em>
         </p>
@@ -44,7 +44,7 @@ nav_order: 5
         <i class="fa-solid fa-flask fa-2x" style="color: #ccc;"></i>
     </div>
     <div class="col-11">
-        <h4 style="margin-bottom: 5px;">Fundamentals of Organic Synthesis</h4>
+        <h4 style="margin-bottom: 5px;">Fundamentals of Organic Synthesis <span style="color: var(--chem-teal); font-size: 0.85em;"> — Introductory Lab</span></h4>
         <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 5px;">
             <em>Faculty of Chemistry | 2021</em>
         </p>

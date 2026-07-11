@@ -38,8 +38,23 @@ category: work
         <p>Why does this matter? Because it allows us to tag specific proteins or peptides at very low concentrations.</p>
         <p>We demonstrated the selective labeling of peptides containing reactive residues (Tyrosine, Cysteine) without side reactions. It's a new "click" reaction for the chemical biology toolbox.</p>
     </div>
-    <div class="col-12 col-md-7 text-center">
-        <!-- Imagen: Le pongo fondo blanco y padding para que la molécula resalte sobre el fondo oscuro -->
-        <img src="/assets/img/bio_conjugation.png" class="img-fluid rounded" style="background-color: white; padding: 15px; width: 100%;" alt="Peptide Functionalization">
+        <!-- Imagen: Le pongo fondo que se adapte al tema y padding para que la molécula resalte -->
+        <img src="/assets/img/bio_conjugation.png" class="img-fluid rounded" style="background-color: var(--global-bg-color); padding: 15px; width: 100%;" alt="Peptide Functionalization">
     </div>
+</div>
+
+<!-- KEY RESULT CALLOUT -->
+<div class="row mt-5 justify-content-center">
+  <div class="col-12 col-md-10">
+    <div class="p-4 rounded" style="border: 2px solid var(--chem-teal); background-color: transparent;">
+      <h4 style="color: var(--chem-teal); font-weight: 700; margin-bottom: 0.75rem;">Key Result</h4>
+      <p class="mb-0">
+        The cationic Ru(II) catalyst remains fully active in <strong>DMEM culture media</strong>
+        and <strong>cell lysates</strong>, enabling the first bioorthogonal C–C bond-forming 
+        reaction based on an alkyne–alkene coupling. Selective labeling was demonstrated on 
+        peptides containing Tyrosine and Cysteine residues, establishing a new tool for 
+        the chemical biology toolkit.
+      </p>
+    </div>
+  </div>
 </div>

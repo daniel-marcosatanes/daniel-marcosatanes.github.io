@@ -1,0 +1,50 @@
+name: CI — Build & Validate (develop)
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Install nbconvert
+        run: pip3 install --upgrade nbconvert
+
+      - name: Validate resume.json ✅
+        run: python3 -c "import json; json.load(open('assets/json/resume.json'))" && echo "JSON is valid"
+
+      - name: Build site 🔧
+        run: |
+          export JEKYLL_ENV=development
+          bundle exec jekyll build
+
+      - name: Check for broken internal links 🔗
+        run: |
+          gem install html-proofer
+          bundle exec htmlproofer _site \
+            --disable-external \
+            --ignore-files "/_site\/assets\/" \
+            --allow-hash-href

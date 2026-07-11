@@ -11,3 +11,13 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Office temporary files and lock files
+*.pptx
+*.docx
+*.xlsx
+~$*
+
+# macOS metadata
+.DS_Store
+.DS_store

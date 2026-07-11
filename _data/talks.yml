@@ -1,0 +1,14 @@
+# Conference talks, invited seminars, and poster presentations
+# Add entries as they accumulate. This file is not yet rendered by any page —
+# a _pages/talks.md can be created when there are enough entries.
+
+talks: []
+
+# Example entry:
+# - title: "Title of Talk or Poster"
+#   event: "Conference or Institution Name"
+#   location: "City, Country"
+#   date: "YYYY-MM-DD"
+#   type: "oral"       # options: oral, poster, invited, seminar
+#   slides_url: ""
+#   abstract: ""

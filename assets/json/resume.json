@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Daniel Marcos Atanes",
-    "label": "Organic Chemist / PhD Candidate",
-    "image": "",
+    "label": "Postdoctoral Researcher | Melchiorre Lab, UniBo",
+    "image": "assets/img/prof_pic.jpg",
     "email": "daniel.marcos.atanes@usc.es",
     "phone": "",
     "url": "https://daniel-marcosatanes.github.io/",
@@ -109,6 +109,13 @@
   ],
   "awards": [
     {
+      "title": "Xunta de Galicia Postdoctoral Fellowship",
+      "date": "2025",
+      "awarder": "Xunta de Galicia (Regional Government of Galicia)",
+      "url": "",
+      "summary": ""
+    },
+    {
       "title": "Fulbright–Spain Predoctoral Research Fellowship",
       "date": "2022",
       "awarder": "Fulbright Spain",
@@ -172,7 +179,7 @@
       "releaseDate": "2019",
       "url": "https://doi.org/10.1021/acs.oprd.9b00191",
       "summary": "Rh-catalyzed couplings convert 2-alkenylphenols into benzoxepines or coumarins using alkynes or CO, with scalable conditions (up to 33 mmol) and low catalyst loadings."
-    },
+    }
   ],
   "skills": [
     {

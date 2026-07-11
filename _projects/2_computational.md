@@ -53,7 +53,7 @@ category: work
     <!-- 1. GIBBS ENERGY -->
     <div class="col-12 col-md-6 mb-4">
         <div class="card h-100" style="border: none; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-            <img src="/assets/img/gibbs.png" class="card-img-top p-2" alt="Reaction Profile">
+            <img src="/assets/img/gibbs.png" class="card-img-top p-2" style="height: 180px; object-fit: contain; background-color: var(--global-bg-color);" alt="Reaction Profile">
             <div class="card-body">
                 <h5 class="card-title" style="color: var(--chem-teal);">Reaction Profiles</h5>
                 <p class="card-text small">Mapping full energy landscapes to identify rate-determining steps and selectivities.</p>
@@ -64,7 +64,7 @@ category: work
     <!-- 2. NON-COVALENT INTERACTIONS -->
     <div class="col-12 col-md-6 mb-4">
         <div class="card h-100" style="border: none; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-            <img src="/assets/img/nci.png" class="card-img-top p-2" alt="NCI Plot">
+            <img src="/assets/img/nci.png" class="card-img-top p-2" style="height: 180px; object-fit: contain; background-color: var(--global-bg-color);" alt="NCI Plot">
             <div class="card-body">
                 <h5 class="card-title" style="color: var(--chem-teal);">NCI Analysis</h5>
                 <p class="card-text small">Visualizing weak forces (dispersion, H-bonds) that dictate ligand docking.</p>
@@ -75,7 +75,7 @@ category: work
     <!-- 3. ORBITAL ANALYSIS -->
     <div class="col-12 col-md-6 mb-4">
         <div class="card h-100" style="border: none; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-            <img src="/assets/img/nbo.png" class="card-img-top p-2" alt="NBO Orbitals">
+            <img src="/assets/img/nbo.png" class="card-img-top p-2" style="height: 180px; object-fit: contain; background-color: var(--global-bg-color);" alt="NBO Orbitals">
             <div class="card-body">
                 <h5 class="card-title" style="color: var(--chem-teal);">NBO Analysis</h5>
                 <p class="card-text small">Studying orbital overlaps and electronic transfers in transition states.</p>
@@ -86,7 +86,7 @@ category: work
     <!-- 4. CONFORMATIONAL SEARCH -->
     <div class="col-12 col-md-6 mb-4">
         <div class="card h-100" style="border: none; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-            <img src="/assets/img/crest.png" class="card-img-top p-2" alt="Conformational Sampling">
+            <img src="/assets/img/crest.png" class="card-img-top p-2" style="height: 180px; object-fit: contain; background-color: var(--global-bg-color);" alt="Conformational Sampling">
             <div class="card-body">
                 <h5 class="card-title" style="color: var(--chem-teal);">Conformational Sampling</h5>
                 <p class="card-text small">Exploring flexible ligand dynamics using CREST/xTB molecular dynamics.</p>
